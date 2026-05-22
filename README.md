@@ -1,9 +1,10 @@
-# mincraft_der_untoten
+<p align="center">
+<img src="src/main/resources/assets/mincraft_der_untoten/minecraft_der_untoten_banner.png">
+</p>
 
-## Setup
-
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+<h1 align="center">
+Welcome to my mod
+</h1>
+<p>
+This mod is heavily inspired from CoD Zombies. Of course its in the first stages so nothing good to see here still
+</p>
