@@ -5,14 +5,14 @@
 	"name": "mincraft_der_untoten",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"de4dshock"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/mincraft_der_untoten/icon.png",
+	"icon": "assets/mincraft_der_untoten/mincraft_der_untoten_icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
