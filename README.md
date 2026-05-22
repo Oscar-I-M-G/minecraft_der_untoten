@@ -1,5 +1,5 @@
 <p align="center">
-<img src="src/main/resources/assets/mincraft_der_untoten/minecraft_der_untoten_banner.png">
+<img src="src/main/resources/assets/minecraft_der_untoten/banner.png">
 </p>
 
 <h1 align="center">

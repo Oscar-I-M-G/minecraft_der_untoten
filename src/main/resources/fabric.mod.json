@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "mincraft_der_untoten",
-	"version": "${version}",
-	"name": "mincraft_der_untoten",
+	"id": "minecraft_der_untoten",
+	"version": "0.0.1",
+	"name": "minecraft_der_untoten",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"de4dshock"
@@ -12,23 +12,23 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/mincraft_der_untoten/mincraft_der_untoten_icon.png",
+	"icon": "assets/minecraft_der_untoten/minecraft_der_untoten_icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"mdu.Mincraft_der_untoten"
+			"mdu.Minecraft_der_untoten"
 		],
 		"client": [
-			"mdu.client.Mincraft_der_untotenClient"
+			"mdu.client.Minecraft_der_untotenClient"
 		],
 		"fabric-datagen": [
-			"mdu.client.Mincraft_der_untotenDataGenerator"
+			"mdu.client.Minecraft_der_untotenDataGenerator"
 		]
 	},
 	"mixins": [
-		"mincraft_der_untoten.mixins.json",
+		"minecraft_der_untoten.mixins.json",
 		{
-			"config": "mincraft_der_untoten.client.mixins.json",
+			"config": "minecraft_der_untoten.client.mixins.json",
 			"environment": "client"
 		}
 	],
