@@ -10,6 +10,6 @@ public class Minecraft_der_untotenClient implements ClientModInitializer {
 	public void onInitializeClient() {
 		HudRenderingEntryPoint.init();
 		HudPoints.init();
-		HudDebug.init();
+//		HudDebug.init();
 	}
 }

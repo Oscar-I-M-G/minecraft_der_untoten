@@ -1,6 +1,7 @@
 package mdu.gui;
 
 import mdu.Minecraft_der_untoten;
+import mdu.common.PlayerPoints;
 import net.fabricmc.fabric.api.client.rendering.v1.hud.HudElementRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.hud.VanillaHudElements;
 import net.minecraft.client.DeltaTracker;
@@ -34,7 +35,7 @@ public class HudPoints {
         // "lerp" simply means "linear interpolation", which is a fancy way of saying "blend".
         float lerpedAmount = Mth.abs(Mth.sin((float) currentTime));
         int lerpedColor = ARGB.linearLerp(lerpedAmount, color, targetColor);
-        String currentPoints = String.valueOf(0);
+        int currentPoints = PlayerPoints.get(mc.player.getUUID());
         int h = mc.font.lineHeight;
         StringBuilder sb = new StringBuilder("Z: ");
         sb.insert(3, currentPoints);
